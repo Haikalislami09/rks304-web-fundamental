@@ -1,0 +1,345 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .list li{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar .list ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.hero .card{
+    background-color: black;
+    display: flex;
+    border-radius: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+}
+
+.hero .main img{
+    height: 500px;
+    width: 500px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.hero .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: 0;
+    padding: 50px;
+    gap: 20px;
+}
+.hero {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .main .biodata p ul li{
+    text-decoration: none;
+    color: white;
+}
+.biodata p{
+    margin-top: 0 ;
+    padding: 0;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about .saya .text {
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about .saya {
+    width: 100%;
+}
+
+.skill{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+.skill li{
+    text-decoration: none;
+    display: flex;
+}
+.line hr{
+    width: 1px;
+    height: 100%;
+    background-color: white;
+
+}
+.pendidikan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.pendidikan .row{
+    display: flex;
+    flex-direction: column;
+}
+.pendidikan .box{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.pendidikan .box .gasek img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.lane hr{
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/* PORTOFOLIO HTML */
+.container {
+    height: 100%;
+}
+
+.porto {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.judul h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
+.porto .judul a {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.project {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 60px 40px;
+}
+
+.project .rpl {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project .box {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+
+.project .box .gasek {
+    width: 100%;
+    height: 200px;
+}
+
+.project .box .gasek img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.project .box .info {
+    padding: 20px;
+}
+
+.project .box .info h1 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.project .box .info p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* contact us */
+#wrap {
+    min-height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.page .lead{
+    text-align: center;
+
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    align-items: start;
+    border-radius: 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact .ui {
+    width: 100%;
+}
+
+.contact .label {
+    margin-bottom: 8px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.contact textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.input a {
+    display: inline-block;
+    width: fit-content;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social {
+    background-color: #222;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-size: 20px;
+
+    text-decoration: none;
+    color: white;
+}
