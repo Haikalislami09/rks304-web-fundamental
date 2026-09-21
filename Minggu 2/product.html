@@ -31,7 +31,7 @@
             </a>
          </li>
          <li>
-            <a href="user.html" class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
+            <a href="user.php" class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
                <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M16 19h4a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-2m-2.236-4a3 3 0 1 0 0-4M3 18v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Zm8-10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
                <span class="flex-1 ms-3 whitespace-nowrap">Users</span>
             </a>
@@ -53,72 +53,42 @@
 </aside>
 
 <div class="p-4 h-screen sm:ml-64">
-   <div class="p-4  rounded-base">
-      <div class="grid grid-cols-4 gap-4 mb-4">
-         <div class="flex flex-col border border-brand-subtle bg-green-500 text-white rounded-lg items-left justify-center px-3 h-24 rounded-base bg-neutral-secondary-soft">
-            <p class="text-fg-disabled">
-               Produksi hari ini
-            </p>
-            <h1 class="text-4xl text-extrabold">220pcs</h1>
-         </div>
-         <div class="flex flex-col border border-brand-subtle bg-blue-500 text-white rounded-lg items-left justify-center px-3 h-24 rounded-base bg-neutral-secondary-soft">
-            <p class="text-fg-disabled">
-               Orderan hari ini
-            </p>
-            <h1 class="text-4xl text-extrabold">1200pcs</h1>
-         </div>
-         <div class="flex flex-col border border-brand-subtle bg-red-500 text-white rounded-lg items-left justify-center px-3 h-24 rounded-base bg-neutral-secondary-soft">
-            <p class="text-fg-disabled">
-               Reject
-            </p>
-            <h1 class="text-4xl text-extrabold">200pcs</h1>
-         </div>
-         <div class="flex flex-col bg-gray-200 rounded-lg items-left justify-center px-3 h-24 rounded-base bg-neutral-secondary-soft">
-            <p class="text-fg-disabled">
-               Non category
-            </p>
-            <h1 class="text-4xl text-extrabold">200pcs</h1>
-         </div>
-         
+   <div class="p-4  rounded-base flex items-center justify-center text-white bg-gray-500">
+      <div class="text-center ">
+        <h1 class="text-uppercase font-bold">MANAJEMEN PRODUK</h1>
       </div>
-      <div class="flex items-center justify-center overflow-hidden h-80 rounded-lg bg-neutral-secondary-soft mb-4">
-         <img src="asset/44623578716cfd4132e878cb699fb1c2.jpg" class="text-fg-disabled w-full h-100">
-      </div>
+   </div>
+   <div class="add my-5 flex justify-end">
+     <a href="add-produk.html" class="button text-none bg-gray-200 p-3 rounded-lg">Tambah</a>
    </div>
    <div class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base">
         <table class="w-full text-sm text-left rtl:text-right text-body">
             <thead class="bg-neutral-secondary-soft border-b border-default">
                 <tr>
                     <th scope="col" class="px-6 py-3 font-bold">
-                        Nama produk
+                        No
                     </th>
                     <th scope="col" class="px-6 py-3 font-bold">
-                        Warna
+                        Nama Produk
                     </th>
                     <th scope="col" class="px-6 py-3 font-bold">
-                        Kategori
+                        Stok
                     </th>
                     <th scope="col" class="px-6 py-3 font-bold">
-                        Harga
-                    </th>
-                    <th scope="col" class="px-6 py-3 font-bold">
-                        Action
+                        Aksi
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
                     <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        Rolls-Royce La Rose Noire Droptail
+                        1
                     </th>
                     <td class="px-6 py-4">
-                        Silver
+                        Beat FI 2016
                     </td>
                     <td class="px-6 py-4">
-                        Mobil
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.496 Miliar
+                        25
                     </td>
                     <td class="px-6 py-4">
                         <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
@@ -126,16 +96,13 @@
                 </tr>
                 <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
                     <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        Neiman Marcus Limited Edition Fighter
+                        2
                     </th>
                     <td class="px-6 py-4">
-                        Hitam
+                        Beat FI 2016
                     </td>
                     <td class="px-6 py-4">
-                        Motor
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.167 Miliar
+                        40
                     </td>
                     <td class="px-6 py-4">
                         <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
@@ -143,16 +110,13 @@
                 </tr>
                 <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
                     <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        SP Automotive Chaos
+                        3
                     </th>
                     <td class="px-6 py-4">
-                        Silver
+                        Nisan GTR
                     </td>
                     <td class="px-6 py-4">
-                        Mobil
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.232 Miliar
+                        10
                     </td>
                     <td class="px-6 py-4">
                         <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
@@ -160,16 +124,13 @@
                 </tr>
                 <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
                     <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        SP Automotive Chaos
+                        4
                     </th>
                     <td class="px-6 py-4">
-                        Silver
+                        Mustang
                     </td>
                     <td class="px-6 py-4">
-                        Mobil
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.232 Miliar
+                        90
                     </td>
                     <td class="px-6 py-4">
                         <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
@@ -177,33 +138,13 @@
                 </tr>
                 <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
                     <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        SP Automotive Chaos
+                        5
                     </th>
                     <td class="px-6 py-4">
-                        Silver
+                        BMW 
                     </td>
                     <td class="px-6 py-4">
-                        Mobil
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.232 Miliar
-                    </td>
-                    <td class="px-6 py-4">
-                        <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
-                    </td>
-                </tr>
-                <tr class="odd:bg-neutral-primary even:bg-neutral-secondary-soft border-b border-default">
-                    <th scope="row" class="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                        SP Automotive Chaos
-                    </th>
-                    <td class="px-6 py-4">
-                        Silver
-                    </td>
-                    <td class="px-6 py-4">
-                        Mobil
-                    </td>
-                    <td class="px-6 py-4">
-                        Rp.232 Miliar
+                        10
                     </td>
                     <td class="px-6 py-4">
                         <a href="edit-produk.html" class="font-medium text-fg-brand hover:underline bg-gray-500 p-2 text-white rounded-sm">Edit</a>
@@ -212,7 +153,7 @@
             </tbody>
         </table>
     </div>
-    <footer class=" bottom-0 left-50 right-0 bg-gray-500 rounded-sm text-white flex items-center justify-center rounded-base shadow-xs border border-default">
+    <footer class="fixed bottom-0 left-50 right-0 bg-gray-500 rounded-sm text-white flex items-center justify-center rounded-base shadow-xs border border-default">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
